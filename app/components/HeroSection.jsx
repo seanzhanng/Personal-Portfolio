@@ -21,10 +21,10 @@ const HeroSection = () => {
                 </p>
                 <div className="sm:space-x-4 space-y-2 sm:space-y-0">
                     <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-white hover:bg-slate-200 text-black">
-                        Hire Me
+                        About Me!
                     </button>
                     <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white">
-                        Download CV
+                        Projects
                     </button>
                 </div>
             </div>
