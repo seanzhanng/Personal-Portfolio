@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-black">
       <div class="container mx-auto px-12 py-4">
         <HeroSection />
-        {/* <Carousel /> */} {/* infinite scrolling */}
+        <Carousel /> {/* infinite scrolling */}
       </div>
     </main>
   );
