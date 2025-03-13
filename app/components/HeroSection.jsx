@@ -28,10 +28,10 @@ const HeroSection = () => {
             </button>
           </div>
         </div>
-        <div className="col-span-5 flex justify-center mt-4 lg:mt-0">
-          <div className="rounded-full bg-gradient-to-r from-purple-400 to-pink-600 w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] flex items-center justify-center overflow-hidden">
+        <div className="col-span-5 flex justify-center mt-4 lg:mt-4">
+          <div className="rounded-full bg-gradient-to-r from-purple-400 to-pink-600 w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] flex items-center justify-center overflow-hidden">
             <Image
-              src=""
+              src="/images/hero-icon.png"
               alt="hero image"
               width={400}
               height={400}
