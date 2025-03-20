@@ -5,19 +5,19 @@ import NavLink from './Navlink';
 const navLinks = [
     {
         title: "About",
-        path: "#about",
-    },
-    {
-        title: "Projects",
-        path: "#projects",
+        path: "about",
     },
     {
         title: "Contact",
-        path: "#contact",
+        path: "contact",
+    },
+    {
+        title: "Projects",
+        path: "projects",
     },
     {
         title: "GitHub",
-        path: "#github",
+        path: "github",
     }
 ]
 
