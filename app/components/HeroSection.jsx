@@ -30,7 +30,7 @@ const HeroSection = () => {
         <div className="col-span-5 flex justify-center">
           <div className="rounded-full bg-gradient-to-r from-purple-400 to-pink-600 w-[200px] h-[200px] lg:w-[250px] lg:h-[250px] flex items-center justify-center overflow-hidden">
             <Image
-              src=""
+              src="/images/hero-icon.png"
               alt="hero image"
               width={400}
               height={400}
