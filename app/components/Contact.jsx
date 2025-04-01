@@ -91,7 +91,7 @@ const Contact = () => {
                     >
                         Send a message!
                     </button>
-                    <p className="text-white mt-2">{status}</p>
+                    <p className="text-white mt-5">{status}</p>
                 </form>
             </div>
         </section>

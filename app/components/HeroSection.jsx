@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import NavLink from './Navlink';
 
 const gradientText = "text-transparent bg-clip-text bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600";
 

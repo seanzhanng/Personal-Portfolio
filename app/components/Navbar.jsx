@@ -17,7 +17,7 @@ const navLinks = [
     },
     {
         title: "GitHub",
-        path: "github",
+        path: "https://github.com/seanzhanng",
     }
 ]
 
@@ -44,4 +44,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;
