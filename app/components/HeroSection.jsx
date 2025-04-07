@@ -26,9 +26,9 @@ const HeroSection = () => {
                 About Me!
               </button>
             </Link>
-            <Link href="/projects">
+            <Link href="/contact">
               <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white">
-                Projects
+                Contact Me!
               </button>
             </Link>
             <a
