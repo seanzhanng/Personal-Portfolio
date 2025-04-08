@@ -15,6 +15,10 @@ const navLinks = [
     title: "GitHub",
     path: "https://github.com/seanzhanng",
   },
+  {
+    title: "Resume",
+    path: "/resume.pdf"
+  },
 ];
 
 const Navbar = () => {

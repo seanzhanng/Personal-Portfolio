@@ -26,50 +26,52 @@ const HeroSection = () => {
                 About Me!
               </button>
             </Link>
-            <Link href="/contact">
+            <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white">
-                Contact Me!
+                Check out my resume!
               </button>
             </Link>
-            <a
-              href="https://github.com/seanzhanng"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/icons/github.svg"
-                alt="GitHub icon"
-                width={49.6}
-                height={49.6}
-                className="hover:opacity-80 transition"
-              />
-            </a>
-            <a
-              href="https://www.instagram.com/seanzhanng/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/icons/instagram.svg"
-                alt="Instagram Icon"
-                width={49.6}
-                height={49.6}
-                className="hover:opacity-80 transition"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/sean-zhang-2a5769314"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/icons/linkedin.svg"
-                alt="LinkedIn Icon"
-                width={49.6}
-                height={49.6}
-                className="hover:opacity-80 transition"
-              />
-            </a>
+            <div className="flex flex-row space-x-4">
+              <a
+                href="https://github.com/seanzhanng"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/icons/github.svg"
+                  alt="GitHub icon"
+                  width={49.6}
+                  height={49.6}
+                  className="hover:opacity-80 transition"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/seanzhanng/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/icons/instagram.svg"
+                  alt="Instagram Icon"
+                  width={49.6}
+                  height={49.6}
+                  className="hover:opacity-80 transition"
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/seanzhanng/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  src="/icons/linkedin.svg"
+                  alt="LinkedIn Icon"
+                  width={49.6}
+                  height={49.6}
+                  className="hover:opacity-80 transition"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <div className="col-span-5 flex justify-center">
